@@ -1,24 +1,15 @@
-# README
+##Api wrapper
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Saves the h1, h2 and h3 tags from a site.
 
-Things you may want to cover:
 
-* Ruby version
+###Endpoints
 
-* System dependencies
+- http://localhost:3000/v1/pages GET, print the information from different pages
 
-* Configuration
+- http://localhost:3000/v1/pages POST, upload a new page
 
-* Database creation
+Params:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- title: the title of the page
+- url: the url of the page
